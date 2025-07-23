@@ -1,0 +1,26 @@
+{
+    // --- Configurações de Formatação e Qualidade de Código ---
+
+    // Define o Prettier como o formatador padrão para todos os arquivos
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    // Ativa a formatação ao salvar
+    "editor.formatOnSave": true,
+
+    // Faz o ESLint corrigir erros automaticamente ao salvar
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+
+    // --- Configurações de Indentação para Alinhar com o Prettier e o indent-rainbow ---
+
+    // Define o tamanho da tabulação como 2 espaços.
+    // Esta é a regra principal que o `indent-rainbow` usa como referência.
+    "editor.tabSize": 2,
+
+    // Garante que a tecla Tab sempre insira espaços, e não o caractere de tabulação.
+    "editor.insertSpaces": true,
+
+    // Impede que o VS Code tente "adivinhar" a indentação do arquivo, forçando-o a usar as regras acima.
+    "editor.detectIndentation": false
+}
